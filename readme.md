@@ -1,4 +1,4 @@
-###### **Setting Up the Project**
+# **Setting Up the Project**
 Step: 0 -> Move to the folder where you downloaded 
   `cd path/to/downloaded/location`
 
@@ -22,4 +22,4 @@ Open finder and right click select open with and select terminal as default app 
 
 Step: 7 -> Add to login items
 
-#### Congratulations!!!! Your'e Done.
+## Congratulations!!!! Your'e Done.
