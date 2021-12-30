@@ -1,4 +1,4 @@
-###### Settign Up the Project
+###### **Setting Up the Project**
 Step: 0 -> Move to the folder where you downloaded 
   `cd path/to/downloaded/location`
 
