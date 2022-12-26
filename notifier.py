@@ -27,10 +27,12 @@ def connect():
 
 def check():
     while True:
+        interval = 600
         status, level = connect()
         if status == "Charging" and level >= 90 or status == "Fully Charged":
             notify('JioFi', f'Your JioFi is charged to {level}%')
         elif status == 'Discharging' and level <= 25:
             notify('JioFi', f'Charge JioFi, current battery percentage: {level}%')
-            
-        time.sleep(600)
+            interval = 300
+        
+        time.sleep(interval)
